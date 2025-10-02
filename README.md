@@ -1,4 +1,4 @@
-# Task-05-Public-API-Using-Fetch-API
+# Task-07-Public-API-Using-Fetch-API
 
 🚀 Objective
 
