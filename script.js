@@ -2,10 +2,10 @@ const userContainer = document.getElementById("userContainer");
 const errorMsg = document.getElementById("errorMsg");
 const reloadBtn = document.getElementById("reloadBtn");
 
-// Function to fetch and display users
+
 function fetchUsers() {
-  userContainer.innerHTML = ""; // Clear old data
-  errorMsg.textContent = "";   // Clear error
+  userContainer.innerHTML = ""; 
+  errorMsg.textContent = "";  
 
   fetch("https://jsonplaceholder.typicode.com/users")
     .then(response => {
@@ -34,8 +34,9 @@ function fetchUsers() {
     });
 }
 
-// Reload button event
+
 reloadBtn.addEventListener("click", fetchUsers);
 
-// Fetch data on page load
+
 fetchUsers();
+
