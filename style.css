@@ -1,0 +1,56 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background: #dedede;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+#reloadBtn {
+  padding: 10px 20px;
+  background: #2581e4;
+  border: none;
+  color: rgb(255, 255, 255);
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+#reloadBtn:hover {
+  background: #0056b3;
+}
+
+.user-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+.user-card {
+  background: rgb(240, 236, 236);
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 14px 16px rgba(0, 0, 0, 0.39);
+  text-align: left;
+}
+.user-card h2 {
+  margin: 0 0 10px;
+  font-size: 20px;
+  color: #007bff;
+}
+.user-card p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #000000;
+}
+
+.error {
+  margin-top: 20px;
+  color: red;
+  font-weight: bold;
+}
